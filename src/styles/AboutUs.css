@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.left_align{
+    text-align: left;
+    padding-bottom: 20px;
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+p{
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+
+}
+ 
+/* To create an overlay color over the small_business image */
+.padding_page{
+    margin-top: 80px;
+    align-items: center;
+    padding-bottom: 0;    
+    transform: translateY(100px);
+}
+
+
+.smallbusiness_img{
+    width: 50%;
+    /* height: 200px; */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(-1, -1);   
+} 
+
+.blue, .blue-1{
+    transform: translateY(-100px);
+}
+
+.blue,
+.blue-1{
+    background: blue;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+@media (max-width:768px) {
+    .blue-1{
+        display: none;
+    }
+    
+}
+
+/* .layer{
+height: 10px;
+position: absolute; 
+bottom: 0; 
+width: 100%;
+transition: .5s ease;
+opacity:0;
+font-size: 20px;
+padding: 20px;
+text-align: center;
+
+} */
+
+
+.container{
+position: relative;
+width: 100%;
+
+}
+
+.h2{
+color: black;
+}
+ /*three-card is the classname for <Card> component*/
+.three-card.card:hover{
+    cursor: pointer;
+    transform: translate(1px, 5px);
+    box-shadow: 0 15px 10px -10px rgba(81, 81, 83, 0.5);
+    transition: all 0.3s ease;
+}
+
+.card-title{
+    display: inline-flex;
+}

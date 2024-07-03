@@ -1,0 +1,166 @@
+/* .home_main{
+    background: url('../assets/homepage1.jpg');
+    background-size: cover;
+    min-width: 1024px;
+
+    width: 100%;
+    height: 600;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+} */
+
+.black{
+    background: black;
+    opacity: 0.9;
+}
+
+
+
+.carousel_caption{
+    justify-items: center;
+    transform: translateY(-170%);
+    
+}
+
+/* .btn{
+    opacity: 0.6;
+    justify-content: center;
+    transform: translateY(-200%);
+    
+} */
+
+@media screen and (max-width: 768px) {
+        div.btn  { display: none; }}
+
+.padding_of_page{
+    margin-top: 80px;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.left_align{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.smallbusiness_img{
+    
+        width: 50%;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transform: scale(-1, -1);
+} 
+
+/* .layer{
+    height: 10px;
+    position: absolute; 
+  bottom: 0; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+
+} */
+
+
+.container1{
+    position: relative;
+    width: 100%;
+
+}
+.layer{
+    background: blue;
+    
+}
+
+.h2{
+    color: black;
+}
+
+*****
+
+.white{
+    background: white;
+    height:250px;
+}
+
+.container{
+    
+    height:100%;
+    background-color: white;
+    margin-top: 80px;
+    height: 600px;
+    text-align: center;
+    position: relative;
+
+}
+
+.blue-quote{
+    color: blue;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.grey{
+    color: grey;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.portfolio-img{  
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 150px; 
+    height: 150px; 
+    overflow: hidden; 
+    border-radius: 80%;
+    margin-top: 30px;
+}
+
+.portfolio-img img{
+    width: auto; 
+    height: 100%; 
+}
+
+.container .carousel-indicators{
+    position: absolute;
+    top: 500px;
+    border-width: 10px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .container .carousel-indicators { margin-top: 4rem;}}
+
+
+.container .carousel-indicators .active{
+    background-color: blue;
+}
+.container .carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 10px;
+    height:10px;
+    border-color: blue;
+    border-width: 1px;
+
+}

@@ -1,0 +1,101 @@
+
+.bg{
+    background: linear-gradient(rgba(0, 1, 2, 0.7),rgba(1, 5, 5, 0.7)), url('../assets/homepage.jpg') ;
+    background-size: cover;
+    min-width: 480px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+@media (max-width:768px) {
+    .bg{
+        min-width: 70px;
+    }
+    
+}
+.button-viewAllServices{
+    margin-top: 5vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.button-viewAllServices .btn{
+    opacity: 11;
+
+}
+
+.bg > h2{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: azure;
+}
+
+.card-component{
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+/* .card{
+    width: 250px;
+    margin: 20px;
+    background-color: transparent;
+    }  */
+
+.card-component > .card{
+    display: inline-block;
+    flex:1;
+}
+
+.transparent{
+    background-color: transparent !important;
+    
+
+}
+
+.transparent.card:hover{
+    cursor: pointer;
+    transform: translate(1px, 5px);
+    box-shadow: 0 2px 5px 2px grey;
+    transition: all 0.3s ease;
+}
+.title,
+.description{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+ .flex-grid{
+    /* display: flex;
+    justify-content: space-around;*/
+    margin-left: 150px; 
+    margin-right: 150px;
+    
+}
+
+.flex-grid .card{
+    width: fit-content;
+    height: fit-content;
+}
+
+@media (max-width:768px) {
+    .card-component .card{
+        width: fit-content;
+        text-align: left;
+        padding: 0px 0px;
+        margin: 0px 0px;
+
+    }
+
+}
+
